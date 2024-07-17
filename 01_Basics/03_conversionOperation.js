@@ -55,6 +55,42 @@ console.log("=========================================");
 
 // for conver value in string can use String() function
 
+console.log("=========================================");
+let str1="12";
+let str2="100";
+let num2=Number(str1);
+let num3=Number(str2);
+
+console.log(num2+num3);
+
+console.log("=========================================");
+
+
+let str3=10;
+let str5=20;
+let str4=" yadav";
+let num4=Number(str3);
+let num5=Number(str4);
+
+console.log(num4+str5+num5);
+
+
+// prefix
+
+str3++;
+console.log(str3);
+
+//postfix
+
+
+++str3;
+console.log(str3);
+
+
+
+
+
+
 
 
 
