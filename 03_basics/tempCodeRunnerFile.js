@@ -1,1 +1,1 @@
-100
+console.log(addone(5))
