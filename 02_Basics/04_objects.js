@@ -54,5 +54,32 @@ console.log(Object.entries(tinderuser));
 console.log(tinderuser.hasOwnProperty('isloggedin'))
 
 
+//destructuring
+
+const course={
+    coursename:"js in hindi by hitesh",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+
+//there is course name object  if and it have long names in field you can 
+//create its short name  using destructuring like this example is given below
+const {courseInstructor : instructor}=course
+
+console.log(instructor)
+
+// =================================================
+
+
+// APIs
+
+//json formate
+// {
+//     "name":"radhika",
+//     "coursename":"Java script",
+//     "price" : "free"
+// }
+ 
 
 
