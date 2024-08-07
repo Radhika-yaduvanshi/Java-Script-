@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Methods</title>
+</head>
+<body>
+    <h1>Hello Radhika...</h1>
+    <h2></h2>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+    //const saydate=function(){console.log("Radhika"+Date.now())}
+
+    const saydate=function(){console.log("Radhika"+Date.now())}
+
+    const start = document.querySelector('#start').addEventListener('click',function(){
+        const intervalId = setInterval(saydate,1000)
+
+        const stop=document.querySelector('#stop')
+
+        if(stop){
+            document.querySelector('#stop').addEventListener('click',function(){
+                //const intervalId = setInterval(saydate,1000)
+                clearInterval(intervalId)
+                console.log("STOPPED")
+            })
+        }
+    })
+
+
+</script>
+
+</html>
